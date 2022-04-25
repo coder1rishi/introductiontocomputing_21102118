@@ -1,0 +1,7 @@
+number1=input('enter_n1')
+number1=int(number1)
+number2=input('enter_n2')
+number2=int(number2)
+number3=input('enter_n3')
+number3=int(number3)
+print((number1+number2+number3)/3)

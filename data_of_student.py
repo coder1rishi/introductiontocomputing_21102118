@@ -1,0 +1,15 @@
+student=[]
+sid=input('enter sid')
+sid=int(sid)
+name=input('enter name')
+gender=input('enter gender M for male,F for female,U for unknown')
+course_name=input('enter course name')
+cgpa=input('enter cgpa')
+cgpa=float(cgpa)
+student.append(sid)
+student.append(name)
+student.append(gender)
+student.append(course_name)
+student.append(cgpa)
+print(student)
+
